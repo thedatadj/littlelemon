@@ -1,26 +1,20 @@
 import './App.css';
-import { ChakraProvider } from "@chakra-ui/react"
+import { Routes, Route, Link } from 'react-router-dom'
 
 // Components
-import Header from './components/Header'
-import Hero from './components/Hero'
-import Specials from './components/Specials'
-import Testimonials from './components/Testimonials'
-import About from './components/About'
-import Footer from './components/Footer'
+import Homepage from './components/Homepage'
+import BookingPage from './components/BookingPage'
 
 function App() {
   return (
-    <ChakraProvider>
-      <main>
-        <Header />
-        <Hero />
-        <Specials />
-        <Testimonials />
-        <About />
-        <Footer />
-      </main>
-    </ChakraProvider>
+    <main>
+      <Link to='/' className='nav-bar'>Homepage</Link>
+      <Link to='booking' className='nav-bar'>Booking Page</Link>
+      <Routes>
+        <Route path='/' element={<Homepage/>} />
+        <Route path='booking' element={<BookingPage/>} />
+      </Routes>
+    </main>
   );
 }
 

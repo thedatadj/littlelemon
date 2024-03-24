@@ -1,10 +1,6 @@
-import FullScreenSection from './FullScreenSection'
-
 const Specials = () => {
     return (
-        <FullScreenSection>
-            <h1>Specials</h1>
-        </FullScreenSection>
+        <h1>Specials</h1>
     )
 }
 export default Specials

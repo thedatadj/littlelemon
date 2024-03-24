@@ -1,10 +1,6 @@
-import FullScreenSection from './FullScreenSection'
-
 const Testimonials = () => {
     return (
-        <FullScreenSection>
-            <h1>Testimonials</h1>
-        </FullScreenSection>
+        <h1>Testimonials</h1>
     )
 }
 export default Testimonials
