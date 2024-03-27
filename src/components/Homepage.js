@@ -1,20 +1,16 @@
-import Header from './Header'
-import Hero from './Hero'
 import Specials from './Specials'
 import Testimonials from './Testimonials'
 import About from './About'
-import Footer from './Footer'
+import Hero from './Hero'
 
 const Homepage = () => {
     return (
-        <>
-            <Header />
+        <main className='home'>
             <Hero />
             <Specials />
             <Testimonials />
             <About />
-            <Footer />
-        </>
+        </main>
     )
 }
 

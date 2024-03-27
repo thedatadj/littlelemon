@@ -1,8 +1,10 @@
+import BookingForm from './BookingForm'
+
 const BookingPage = () => {
     return (
-        <>
-            <h1>Booking Page</h1>
-        </>
+        <div className='align'>
+            <BookingForm/>
+        </div>
     )
 }
 export default BookingPage
