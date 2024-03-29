@@ -9,6 +9,7 @@ import BookingPage from './components/BookingPage'
 import Login from './components/Login'
 import Menu from './components/Menu'
 import Order from './components/Order'
+import ConfirmeBooking from './components/ComfirmeBooking'
 
 function App() {
 
@@ -44,6 +45,7 @@ function App() {
               <Route path='/booking' element={<BookingPage/>} />
               <Route path='/order' element={<Order/>} />
               <Route path='/login' element={<Login/>} />
+              <Route path='/confirmed' element={<ConfirmeBooking/>} />
           </Routes>
       </header>
       <Footer/>

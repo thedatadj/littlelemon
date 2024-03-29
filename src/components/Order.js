@@ -1,7 +1,7 @@
 const Order = () => {
     return (
         <>
-            <h1>Order Online</h1>
+            <h1>Under construction</h1>
         </>
     )
 }

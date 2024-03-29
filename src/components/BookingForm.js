@@ -1,5 +1,6 @@
 import { useReducer, useState } from 'react'
 import fakeAPI from '../assets/fakeAPI'
+import { useNavigate } from 'react-router-dom'
 
 const select1 = {
     width:"8em",
@@ -52,6 +53,7 @@ const select4 = {
 
 const BookingForm = () => {
     const [date, setDate] = useState(new Date("2024-03-30"))
+    const navigate = useNavigate()
 
     const handleDate = (e) => {
         const tempDate = new Date(e.target.value.toString())
@@ -73,9 +75,16 @@ const BookingForm = () => {
         return <option>{time}</option>
     })
 
-    return (
-        <form>
+    const handleData = (e) => {
+        e.preventDefault()
+        if (fakeAPI.submitAPI(e.target.value)) {
+            navigate('/confirmed')
+            console.log('success')
+        }
+    }
 
+    return (
+        <form onSubmit={handleData}>
             <label htmlFor='res-date' id='res-date'>Choose date</label>
             <input type='date' id='res-date' style={select1}
                 onChange={() => dispatch({type: '1'})}
@@ -96,12 +105,13 @@ const BookingForm = () => {
                 max='10'
                 style={select3}
             />
+
             <label htmlFor='occasion' id='occasion'>Occasion</label>
             <select id='occasion' style={select4}>
                 <option>Birthday</option>
                 <option>Anniversary</option>
             </select>
-            <input id='sub' type='submit' value='Make your reservation'/>
+            <input id='sub' type='submit' value='Make your reservation' />
         </form>
     )
 }
