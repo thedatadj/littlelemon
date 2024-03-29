@@ -1,12 +1,13 @@
 import salad from '../assets/images/greek salad.jpg'
 import lemon from '../assets/images/lemon dessert.jpg'
 import bruc from '../assets/images/bruchetta.svg'
+import { Link } from 'react-router-dom'
 
 const Specials = () => {
     return (
         <div className='specials align'>
             <h1>This weeks specials!</h1>
-            <button>Online Menu</button>
+            <button><Link to='/menu' className='reserve-button'>Online Menu</Link></button>
             <div className='cards'>
                 <div className='card salad'>
                     <div className='card-image'>

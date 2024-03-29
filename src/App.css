@@ -95,6 +95,10 @@ button {
     margin-bottom: 1em;
 }
 
+button:hover {
+    background-color: #EE9972;
+}
+
 .hero .crop {
     margin-top: 12px;
     border-radius: 30px;
@@ -103,6 +107,13 @@ button {
     width: 16em;
     height: 18em;
     overflow: hidden;
+}
+
+
+
+.hero .crop:hover {
+    transform: scale(1.02);
+    transition: 1s;
 }
 
 .specials {
@@ -305,9 +316,58 @@ form {
     font-family: "Karla";
     font-weight: bolder;
     font-size: medium;
+    box-shadow: 0em 0.1em 0em #dab915;
 }
 
 .reserve-button {
     text-decoration: none;
     color: black;
+}
+
+.login.align {
+    grid-template-rows: repeat(5, 3em);
+    align-items: center;
+}
+
+#b1 {
+    grid-area: 3 / 5 / span 1 / span 2;
+}
+
+#b2 {
+    grid-area: 3 / 8 / span 1 / span 2;
+}
+
+.container {
+	min-height: 100vh;
+	background-color:bisque;
+}
+
+.letters {
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+	margin-bottom: 20px;
+	text-transform:uppercase;
+	font-size: 60px;
+}
+
+.letters p {
+	text-align: center;
+	background-color: rgb(250, 150, 100);
+	width: 70px;
+	margin-right: 1.5px;
+	border-radius: 15px;
+	border-color: rgb(250, 125, 75);
+	border-style: solid;
+}
+
+.letters p:nth-child(even):hover {
+	transform: rotateY(720deg);
+	transition: 0.5s;
+}
+
+/* Add rules for steps 10 and 11 */
+.letters p:nth-child(odd):hover {
+	transform: rotateX(360deg);
+	transition: 1.5s;
 }
