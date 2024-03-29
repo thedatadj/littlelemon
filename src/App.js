@@ -10,6 +10,8 @@ import Login from './components/Login'
 import Menu from './components/Menu'
 import Order from './components/Order'
 import ConfirmeBooking from './components/ComfirmeBooking'
+import Signin from './components/Signin'
+import Signup from './components/Signup'
 
 function App() {
 
@@ -46,6 +48,8 @@ function App() {
               <Route path='/order' element={<Order/>} />
               <Route path='/login' element={<Login/>} />
               <Route path='/confirmed' element={<ConfirmeBooking/>} />
+              <Route path='/signin' element={<Signin/>} />
+              <Route path='/signup' element={<Signup/>} />
           </Routes>
       </header>
       <Footer/>

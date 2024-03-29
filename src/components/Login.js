@@ -1,8 +1,18 @@
+import { useNavigate } from 'react-router-dom'
+
 const Login = () => {
+    const navigate = useNavigate()
+
+    const handleClick1 = () => {
+        navigate('/signin')
+    }
+    const handleClick2 = () => {
+        navigate('/signup')
+    }
     return (
         <div className='login align'>
-            <button id='b1'>Sign In</button>
-            <button id='b2'>Sign Up</button>
+            <button id='b1' onClick={handleClick1}>Sign In</button>
+            <button id='b2' onClick={handleClick2}>Sign Up</button>
         </div>
     )
 }
