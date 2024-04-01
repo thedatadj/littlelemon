@@ -1,8 +1,8 @@
 {
+  "homepage": "http://thedatadj.github.io/littlelemon",
   "name": "littlelemon",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://thedatadj.github.io/littlelemon",
   "dependencies": {
     "@chakra-ui/react": "^2.8.2",
     "@testing-library/jest-dom": "^5.17.0",
