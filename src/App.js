@@ -31,25 +31,25 @@ function App() {
         <nav className='navbar align'>
           <img className='logo' src={logo} alt="logo"/>
           <div className='links'>
-            <Link to='/' className='link'>Home</Link>
-            <a href='/#about' className='link' onClick={handleClick}>About</a>
-            <Link to='/menu' className='link'>Menu</Link>
-            <Link to='/booking' className='link'>Reservation</Link>
-            <Link to='/order' className='link'>Order Online</Link>
-            <Link to='/login' className='link'>Login</Link>
+            <Link to='/littlelemon' className='link'>Home</Link>
+            <a href='/littlelemon/#about' className='link' onClick={handleClick}>About</a>
+            <Link to='/littlelemon/menu' className='link'>Menu</Link>
+            <Link to='/littlelemon/booking' className='link'>Reservation</Link>
+            <Link to='/littlelemon/order' className='link'>Order Online</Link>
+            <Link to='/littlelemon/login' className='link'>Login</Link>
           </div>
         </nav>
       </div>
       <header className='content'>
           <Routes>
-              <Route path='/' element={<Homepage/>} />
-              <Route path='/menu' element={<Menu/>} />
-              <Route path='/booking' element={<BookingPage/>} />
-              <Route path='/order' element={<Order/>} />
-              <Route path='/login' element={<Login/>} />
-              <Route path='/confirmed' element={<ConfirmeBooking/>} />
-              <Route path='/signin' element={<Signin/>} />
-              <Route path='/signup' element={<Signup/>} />
+              <Route path='/littlelemon' element={<Homepage/>} />
+              <Route path='/littlelemon/menu' element={<Menu/>} />
+              <Route path='/littlelemon/booking' element={<BookingPage/>} />
+              <Route path='/littlelemon/order' element={<Order/>} />
+              <Route path='/littlelemon/login' element={<Login/>} />
+              <Route path='/littlelemon/littlelemon/confirmed' element={<ConfirmeBooking/>} />
+              <Route path='/littlelemon/signin' element={<Signin/>} />
+              <Route path='/littlelemon/signup' element={<Signup/>} />
           </Routes>
       </header>
       <Footer/>
