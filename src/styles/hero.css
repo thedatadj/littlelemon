@@ -2,9 +2,9 @@
     background-color: #495E57;
 }
 
-.hero {
-    padding-top: 12px;
-    padding-bottom: 20px;
+.hero.align {
+    padding-top: 0.8em;
+    padding-bottom: 1.2em;
     grid-template-rows: 38px 33px 113px;
 }
 
@@ -69,4 +69,69 @@ button:hover {
 .hero .crop:hover {
     transform: scale(1.02);
     transition: 1s;
+}
+
+@media (max-width: 550px) {
+    .align {
+        display: grid;
+        grid-template-columns: repeat(8, 2em);
+        column-gap: 0.5em;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+    }
+    .hero.align {
+        padding-top: 0em;
+        padding-bottom: 1.3em;
+        grid-template-rows: repeat(22, 1em);
+    }
+    .hero h1  {
+        margin: 0em;
+        color: #F4CE14;
+        grid-area: 1 / 1 / 5 / span 9;
+        font-family: "Markazi Text";
+        font-size: 4em;
+        font-weight: 500;
+        font-style: normal;
+    }
+    .hero h2 {
+        margin: 0em;
+        font-weight: 300;
+        font-family: "Markazi Text";
+        font-size: 2.5em;
+        color: white;
+        grid-area: 5 / 1 / span 3 / span 3;
+    }
+    .hero p {
+        margin: 0em;
+        font-family: "Karla", sans-serif;
+        font-weight: 400;
+        font-size: 1.2em;
+        color: white;
+        grid-area: 8 / 1 / span 10 / span 6;
+    }
+    .hero button {
+        grid-area: 19 / 1 / span 3 / span 6;
+        height: 2.6em;
+        border-radius: 1em;
+    }
+    .hero button span {
+        font-size: 1.3em;
+        font-weight: 700;
+    }
+    button:hover {
+        background-color: #EE9972;
+    }
+    .hero .crop:hover {
+        transform: scale(1.02);
+        transition: 1s;
+        box-shadow: 0em 0em 0.5em black;
+    }
+    .hero .crop {
+        margin-top: 4em;
+        border-radius: 1em;
+        grid-area: 4 / 8 / span 1 / span 1;
+        width: 11em;
+        height: 14em;
+        overflow: hidden;
+    }
 }

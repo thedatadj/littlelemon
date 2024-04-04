@@ -16,7 +16,7 @@ const Hero = () => {
             <div className='crop'>
                 <img className='image' src={image1} width="100%" alt='hero'/>
             </div>
-            <button ><Link to='/booking' className='reserve-button'>Reserve a table</Link></button>
+            <button ><Link to='/booking' className='reserve-button'><span>Reserve a table</span></Link></button>
         </div>
         </div>
     )
