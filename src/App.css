@@ -51,6 +51,8 @@ body {
     }
     .navbar.align {
         margin: auto;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
         height: 6em;
         display: flex;
         justify-content: space-between;

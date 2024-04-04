@@ -100,7 +100,7 @@
     }
     .card {
         border-top: 2px solid rgb(187, 187, 187);
-        height: 10em;
+        height: 9em;
         display: grid;
         grid-template-columns: 68%  25%;
         grid-template-rows: 12em 10em;

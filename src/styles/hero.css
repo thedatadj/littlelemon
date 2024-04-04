@@ -71,7 +71,7 @@ button:hover {
     transition: 1s;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
     .align {
         display: grid;
         grid-template-columns: repeat(8, 2em);
