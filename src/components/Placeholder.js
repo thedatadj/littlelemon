@@ -47,7 +47,7 @@ const Bread = () =>
         p5.textSize(32)
         p5.strokeWeight(3)
         p5.fill(251, 235, 198);
-        p5.text("Sorry, I'm just a bread.", 50, 420)
+        p5.text("Sorry, I'm just a slice of bread.", 50, 420)
     }
 
     return <Sketch setup={setup} draw={draw} />
