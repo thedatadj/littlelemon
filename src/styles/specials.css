@@ -1,0 +1,154 @@
+.specials {
+    margin-top: 100px;
+    grid-template-rows: repeat(2, 8em) 12.9em 6em;
+}
+
+#mobile {
+    display: none;
+}
+
+.specials h1 {
+    grid-area: 1 / 3 / 2 / span 5;
+    font-family: "Markazi Text";
+    font-size: 3.2em;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.specials button {
+    grid-area: 1 / 9 / 2 / span 2;
+    align-self: center;
+    padding: 15px;
+    margin-left: 1em;
+    width: 11em;
+    border-radius: 1em;
+}
+
+.cards {
+    grid-area: 2 / 3 / span 2 / span 10;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1.5em;
+    width: 44em;
+}
+
+.card {
+    height: 20.55em;
+}
+
+.card-image {
+    height: 8em;
+    overflow: hidden;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+.card-des {
+    height: 10.35em;
+    background-color: #EDEFEE;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 2em 7em 3em;
+}
+
+.card-des h3 {
+    font-family: "Markazi Text";
+    font-size: 1.1em;
+    margin: 0px;
+}
+
+.card-des p {
+    font-size: 0.75em;
+    font-family: "Karla", sans-serif;
+}
+
+.card-des h4 {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Karla";
+    font-size: 0.8em;
+}
+
+@media (max-width: 600px) {
+    .specials.align {
+        margin: 0em;
+        margin-top: 2.3em;
+        margin-left: 1em;
+        display: flex;
+        flex-direction: column;
+    }
+    #desktop {
+        display: none;
+    }
+    #mobile {
+        display: block;
+    }
+    h2#mobile {
+        font-family: "Karla";
+        font-size: 1.5em;
+        font-weight: 800;
+    }
+    .specials button {
+        display: none;
+    }
+    .cards {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .card {
+        border-top: 2px solid rgb(187, 187, 187);
+        height: 10em;
+        display: grid;
+        grid-template-columns: 68%  25%;
+        grid-template-rows: 12em 10em;
+    }
+    .card-image img{
+        margin-top: 2.5em;
+        border-radius: 1em;
+        grid-area: 1 / 2 / span 1 / span 1;
+    }
+    .card-des{
+        grid-area: 1 / 1 / span 2 / span 1;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 0em;
+        margin: 0em;
+        margin-top: 1em;
+    }
+    .card-des h3 {
+        font-family: "Karla";
+        font-size: 1.4em;
+        font-weight: 700;
+    }
+    .card-des p {
+        color: #495E57;
+        margin: 0em;
+        margin-top: 0.5em;
+        font-family: "Karla";
+        font-size: 1em;
+        height: 2.5em;
+        display: -webkit-box;
+        max-width: 18.5em;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .card-des h4 {
+        height: 0em;
+        display: none;
+    }
+    .card-des h3.price {
+        color: #495E57;
+        margin: 0em;
+        margin-top: 0.5em;
+        padding: 0em;
+        height: 1em;
+        font-family: "Karla";
+        font-size: 1.2em;
+    }
+}

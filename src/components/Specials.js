@@ -2,11 +2,13 @@ import salad from '../assets/images/greek salad.jpg'
 import lemon from '../assets/images/lemon dessert.jpg'
 import bruc from '../assets/images/bruchetta.svg'
 import { Link } from 'react-router-dom'
+import '../styles/specials.css'
 
 const Specials = () => {
     return (
         <div className='specials align'>
-            <h1>This weeks specials!</h1>
+            <h1 id='desktop'>This weeks specials!</h1>
+            <h2 id='mobile'>ORDER FOR DELIVERY!</h2>
             <button><Link to='/menu' className='reserve-button'>Online Menu</Link></button>
             <div className='cards'>
                 <div className='card salad'>
@@ -21,6 +23,7 @@ const Specials = () => {
                             with crunchy garlic and rosemary croutons.
                         </p>
                         <h4>Order a delivery</h4>
+                        <h3 id='mobile' className='price'>$12.99</h3>
                     </div>
                 </div>
                 <div className='card'>
@@ -35,6 +38,7 @@ const Specials = () => {
                             with salt and olive oil.
                         </p>
                         <h4>Order a delivery</h4>
+                        <h3 id='mobile' className='price'>$7.99</h3>
                     </div>
                 </div>
                 <div className='card'>
@@ -49,6 +53,7 @@ const Specials = () => {
                             and is as authentic as can be imagined.
                         </p>
                         <h4>Order a delivery</h4>
+                        <h3 id='mobile' className='price'>$20.00</h3>
                     </div>
                 </div>
             </div>

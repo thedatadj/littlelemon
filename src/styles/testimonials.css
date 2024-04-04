@@ -1,0 +1,42 @@
+.testimonials-area {
+    background-color: #EDEFEE;
+}
+
+.testimonials.align {
+    grid-template-rows: repeat(6, 5em);
+}
+
+.testimonials h1 {
+    grid-area: 2 / 1 / span 2 / span 13;
+    justify-self: center;
+    font-family: "Markazi Text";
+    font-size: 3.2em;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.testimonials .review {
+    background-color: white;
+    height: 6em;
+    width: 10em;
+    margin-left: 2em;
+}
+
+.review.box1 {
+    grid-area: 4 / 3 / span 1 / span 2;
+}
+.review.box2 {
+    grid-area: 4 / 5 / span 1 / span 2;
+}
+.review.box3 {
+    grid-area: 4 / 7 / span 1 / span 2;
+}
+.review.box4 {
+    grid-area: 4 / 9 / span 1 / span 2;
+}
+
+@media (max-width: 600px) {
+    .testimonials-area {
+        display: none
+    }
+}

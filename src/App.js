@@ -1,8 +1,13 @@
+// Assets
 import './App.css'
 import logo from './logo.svg'
+import burger from './assets/icons/burger.svg'
+import basket from './assets/icons/basket.svg'
+
+// React Components
 import { Routes, Route, Link } from 'react-router-dom'
 
-// Components
+// Personal Components
 import Footer from './components/Footer'
 import Homepage from './components/Homepage'
 import BookingPage from './components/BookingPage'
@@ -29,7 +34,9 @@ function App() {
     <>
       <div className='navback'>
         <nav className='navbar align'>
+          <img className='menu-icon' id='mobile' src={burger} alt='menu'/>
           <img className='logo' src={logo} alt="logo"/>
+          <img className='basket-icon' id='mobile' src={basket} alt='shop'/>
           <div className='links'>
             <Link to='/littlelemon' className='link'>Home</Link>
             <a href='/littlelemon/#about' className='link' onClick={handleClick}>About</a>

@@ -1,5 +1,6 @@
 import image1 from '../assets/images/restaurant chef B.jpg'
 import image2 from '../assets/images/restaurant.jpg'
+import '../styles/about.css'
 
 const About = () => {
     return (
