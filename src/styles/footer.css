@@ -37,7 +37,7 @@ footer {
     grid-area: 1 / 11 / span 1 / span 3;
 }
 
-@media(max-width: 600px) {
+@media(max-width: 480px) {
     footer {
         display: none;
     }

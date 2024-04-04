@@ -70,7 +70,7 @@
     font-size: 0.8em;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 480px) {
     .specials.align {
         margin: 0em;
         margin-top: 2.3em;
