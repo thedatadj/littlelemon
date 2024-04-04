@@ -15,7 +15,6 @@ body {
     margin-left: 5em;
     margin-right: 5em;
 }
-
 .navbar.align {
     margin-top: 2em;
     margin-bottom: 2em;
@@ -41,77 +40,29 @@ body {
     font-size: 0.92em;
 }
 
-.hero-parent {
-    background-color: #495E57;
-}
-
-.hero {
-    padding-top: 12px;
-    padding-bottom: 20px;
-    grid-template-rows: 38px 33px 113px;
-}
-
-.hero h1 {
-    margin: 0px;
-    color: #F4CE14;
-    grid-column: 3 / span 4;
-    font-family: "Markazi Text";
-    font-size: 3.2em;
-    font-weight: 500;
-    font-style: normal;
-}
-
-.hero h2 {
-    margin-left: 0px;
-    margin-top: 8px;
-    font-weight: 300;
-    font-family: "Markazi Text";
-    font-size: 2em;
-    color: white;
-    grid-area: 2 / 3 / span 1 / span 3;
-}
-
-.hero p {
-    font-family: "Karla", sans-serif;
-    font-weight: 500;
-    font-size: 0.92em;
-    color: white;
-    grid-area: 3 / 3 / span 1 / span 3;
-}
-
-button {
-    background-color: #F4CE14;
-    border: 0px;
-    font-family: "Karla", sans-serif;
-    font-weight: 700;
-    font-size: 0.92em;
-    border-radius: 8px;
-    padding: 0.5em;
-}
-
-.hero button {
-    grid-area: 4 / 3 / span 1 / 6;
-    margin-right: 2.4em;
-    margin-bottom: 1em;
-}
-
-button:hover {
-    background-color: #EE9972;
-}
-
-.hero .crop {
-    margin-top: 12px;
-    border-radius: 30px;
-    grid-column-start: 8;
-    grid-row-start: 1;
-    width: 17em;
-    height: 19em;
-    overflow: hidden;
-}
-
-.hero .crop:hover {
-    transform: scale(1.02);
-    transition: 1s;
+@media(max-width: 500px)
+{
+    .navbar.align {
+        display: flex;
+    }
+    .navbar {
+        margin: 1em;
+    }
+    .logo{
+        align-self: center;
+    }
+    .links {
+        align-self: center;
+        padding-left: 0em;
+    }
+    .link {
+        text-decoration: none;
+        color: black;
+        font-family: "Karla", sans-serif;
+        font-weight: bold;
+        font-size: 0.92em;
+        margin: 0px;
+    }
 }
 
 .specials {

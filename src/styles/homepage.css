@@ -1,0 +1,12 @@
+/* Add code for container class below */
+.container {
+    /* Add rules here */
+}
+/* Add media rules for container class below */
+@media (min-width: 440px) {
+    .container {
+    /* Add rules here */
+    }
+}
+
+/* Properties for other selectors */
