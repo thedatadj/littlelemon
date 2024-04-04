@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/littlelemon/static/css/main.dba9101d.css",
-    "main.js": "/littlelemon/static/js/main.8f17d53c.js",
+    "main.js": "/littlelemon/static/js/main.f74c1631.js",
     "static/media/bruchetta.svg": "/littlelemon/static/media/bruchetta.29ea078fea3d3120ed22402e901b5bbc.svg",
     "static/media/restaurant chef B.jpg": "/littlelemon/static/media/restaurant chef B.4b4c2d26b514db32e8fc.jpg",
     "static/media/greek salad.jpg": "/littlelemon/static/media/greek salad.bed423a1fab5b210e347.jpg",
@@ -12,10 +12,10 @@
     "static/media/basket.svg": "/littlelemon/static/media/basket.096e0ee1a59ac26349dcd0f4f0c56010.svg",
     "static/media/burger.svg": "/littlelemon/static/media/burger.0da6f67ced800ab909f63d5144de37ee.svg",
     "main.dba9101d.css.map": "/littlelemon/static/css/main.dba9101d.css.map",
-    "main.8f17d53c.js.map": "/littlelemon/static/js/main.8f17d53c.js.map"
+    "main.f74c1631.js.map": "/littlelemon/static/js/main.f74c1631.js.map"
   },
   "entrypoints": [
     "static/css/main.dba9101d.css",
-    "static/js/main.8f17d53c.js"
+    "static/js/main.f74c1631.js"
   ]
 }
