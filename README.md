@@ -7,6 +7,6 @@ This project was created using React.
 * Ecommerce
   * Order food online
 * Responsive design
-  * Desktop and mobile version of the website
+  * Desktop and mobile version available
 
 
