@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/littlelemon/static/css/main.db3a9b7b.css",
-    "main.js": "/littlelemon/static/js/main.f74c1631.js",
+    "main.css": "/littlelemon/static/css/main.da46f373.css",
+    "main.js": "/littlelemon/static/js/main.8e7ec2d4.js",
     "static/media/bruchetta.svg": "/littlelemon/static/media/bruchetta.29ea078fea3d3120ed22402e901b5bbc.svg",
     "static/media/restaurant chef B.jpg": "/littlelemon/static/media/restaurant chef B.4b4c2d26b514db32e8fc.jpg",
     "static/media/greek salad.jpg": "/littlelemon/static/media/greek salad.bed423a1fab5b210e347.jpg",
     "static/media/restauranfood.jpg": "/littlelemon/static/media/restauranfood.e8abf5b772b6817189aa.jpg",
     "static/media/restaurant.jpg": "/littlelemon/static/media/restaurant.324d0f99bdf19400a0f7.jpg",
+    "static/media/UnderConstruction.svg": "/littlelemon/static/media/UnderConstruction.e9884bdbbdf18d952df8e511b3a17c50.svg",
     "static/media/logo.svg": "/littlelemon/static/media/logo.6cfcefaf9cd049ddf4d30c038e39e743.svg",
     "index.html": "/littlelemon/index.html",
     "static/media/basket.svg": "/littlelemon/static/media/basket.096e0ee1a59ac26349dcd0f4f0c56010.svg",
     "static/media/burger.svg": "/littlelemon/static/media/burger.0da6f67ced800ab909f63d5144de37ee.svg",
-    "main.db3a9b7b.css.map": "/littlelemon/static/css/main.db3a9b7b.css.map",
-    "main.f74c1631.js.map": "/littlelemon/static/js/main.f74c1631.js.map"
+    "main.da46f373.css.map": "/littlelemon/static/css/main.da46f373.css.map",
+    "main.8e7ec2d4.js.map": "/littlelemon/static/js/main.8e7ec2d4.js.map"
   },
   "entrypoints": [
-    "static/css/main.db3a9b7b.css",
-    "static/js/main.f74c1631.js"
+    "static/css/main.da46f373.css",
+    "static/js/main.8e7ec2d4.js"
   ]
 }
