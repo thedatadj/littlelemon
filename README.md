@@ -8,5 +8,3 @@ This project was created using React.
   * Order food online
 * Responsive design
   * Desktop and mobile version available
-
-
