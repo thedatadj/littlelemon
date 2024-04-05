@@ -4,12 +4,9 @@ This project was created using React.
 
 ## Features
 
-### Ecommerce
-
-Order food online
-
-### Responsive design
-
-Desktop and mobile version of the website
+* Ecommerce
+  * Order food online
+* Responsive design
+  * Desktop and mobile version of the website
 
 
