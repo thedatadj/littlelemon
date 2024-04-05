@@ -1,6 +1,7 @@
 import { useReducer, useState } from 'react'
 import fakeAPI from '../assets/fakeAPI'
 import { useNavigate } from 'react-router-dom'
+import '../styles/bookingForm.css'
 
 const select1 = {
     width:"8em",
@@ -84,34 +85,46 @@ const BookingForm = () => {
     }
 
     return (
-        <form onSubmit={handleData}>
-            <label htmlFor='res-date' id='res-date'>Choose date</label>
-            <input type='date' id='res-date' style={select1}
-                onChange={() => dispatch({type: '1'})}
-                onInput={handleDate}
-            />
+        <form className='booking-form' onSubmit={handleData}>
+            <div className='subset1'>
+                <div>
+                    <label htmlFor='res-date' id='res-date'>Choose date</label>
+                    <input type='date' id='res-date' style={select1}
+                        onChange={() => dispatch({type: '1'})}
+                        onInput={handleDate}
+                    />
+                </div>
 
-            <label htmlFor='res-time' id='res-time'>Choose time</label>
-            <select id='res-time' style={select2}>
-                {options}
-            </select>
+                <div>
+                    <label htmlFor='res-time' id='res-time'>Choose time</label>
+                    <select id='res-time' style={select2}>
+                        {options}
+                    </select>
+                </div>
 
-            <label htmlFor='guests' id='guests'>Number of guests</label>
-            <input
-                id='guests'
-                type="number"
-                placeholder='1'
-                min='1'
-                max='10'
-                style={select3}
-            />
+                <div>
+                    <label htmlFor='guests' id='guests'>Number of guests</label>
+                    <input
+                        id='guests'
+                        type="number"
+                        placeholder='1'
+                        min='1'
+                        max='10'
+                        style={select3}
+                    />
+                </div>
 
-            <label htmlFor='occasion' id='occasion'>Occasion</label>
-            <select id='occasion' style={select4}>
-                <option>Birthday</option>
-                <option>Anniversary</option>
-            </select>
-            <input id='sub' type='submit' value='Make your reservation' />
+                <div>
+                    <label htmlFor='occasion' id='occasion'>Occasion</label>
+                    <select id='occasion' style={select4}>
+                        <option>Birthday</option>
+                        <option>Anniversary</option>
+                    </select>
+                </div>
+            </div>
+            <div className='subset2'>
+                <input id='submit-button' type='submit' value='Make your reservation' />
+            </div>
         </form>
     )
 }

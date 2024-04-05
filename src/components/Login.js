@@ -4,10 +4,10 @@ const Login = () => {
     const navigate = useNavigate()
 
     const handleClick1 = () => {
-        navigate('/signin')
+        navigate('/littlelemon/signin')
     }
     const handleClick2 = () => {
-        navigate('/signup')
+        navigate('/littlelemon/signup')
     }
     return (
         <div className='login align'>

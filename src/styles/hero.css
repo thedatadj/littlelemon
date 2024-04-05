@@ -52,6 +52,11 @@ button {
     margin-bottom: 1em;
 }
 
+.reserve-button {
+    text-decoration: none;
+    color: black;
+}
+
 button:hover {
     background-color: #EE9972;
 }

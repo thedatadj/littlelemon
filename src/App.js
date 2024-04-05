@@ -35,7 +35,7 @@ function App() {
       <div className='navback'>
         <nav className='navbar align'>
           <img className='menu-icon' id='mobile' src={burger} alt='menu'/>
-          <img className='logo' src={logo} alt="logo"/>
+          <Link to='/littlelemon' className='logo'><img className='logo' src={logo} alt="logo"/></Link>
           <img className='basket-icon' id='mobile' src={basket} alt='shop'/>
           <div className='links'>
             <Link to='/littlelemon' className='link'>Home</Link>

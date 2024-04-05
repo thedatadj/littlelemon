@@ -1,8 +1,9 @@
 import BookingForm from './BookingForm'
+import '../styles/bookingPage.css'
 
 const BookingPage = () => {
     return (
-        <div className='align'>
+        <div className='booking-page'>
             <BookingForm/>
         </div>
     )
