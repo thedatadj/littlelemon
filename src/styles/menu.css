@@ -1,0 +1,65 @@
+.menu
+{
+    row-gap: 1em;
+    margin-bottom: 10svh;
+    grid-template-rows: repeat(6, 17svh);
+}
+.menu-title
+{
+    grid-area: 1 / 3 / span 1 / span 9;
+    text-align: center;
+    font-size: 3em;
+}
+.menu-title h1
+{
+    margin: 0;
+    padding: 0;
+}
+.menu-section
+{
+    text-align: center;
+}
+.menu-section h1
+{
+    margin: 0;
+}
+.box
+{
+    height: 20svh;
+}
+#starters
+{
+    grid-area: 2 / 3 / span 3 / span 4;
+}
+#main
+{
+    grid-area: 2 / 7 / span 3 / span 4;
+}
+#desserts
+{
+    grid-area: 5 / 3 / span 3 / span 4;
+}
+#drinks
+{
+    grid-area: 5 / 7 / span 3 / span 4;
+}
+.one
+{
+    display: flex;
+    text-align: left;
+    border: 1px solid gray;
+}
+.one:hover
+{
+    background-color: aliceblue;
+}
+.two#image
+{
+    display: flex;
+    align-items: center;
+    width: 10em;
+}
+.two
+{
+    margin: 0.5em;
+}
