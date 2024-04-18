@@ -47,7 +47,7 @@ function App() {
           </div>
         </nav>
       </div>
-      <header className='content'>
+      <main className='content'>
           <Routes>
               <Route path='/littlelemon' element={<Homepage/>} />
               <Route path='/littlelemon/menu' element={<Menu/>} />
@@ -58,7 +58,7 @@ function App() {
               <Route path='/littlelemon/signin' element={<Signin/>} />
               <Route path='/littlelemon/signup' element={<Signup/>} />
           </Routes>
-      </header>
+      </main>
       <Footer/>
     </>
   );

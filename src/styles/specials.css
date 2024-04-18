@@ -18,18 +18,18 @@
 .specials button {
     grid-area: 1 / 9 / 2 / span 2;
     align-self: center;
+    justify-self: end;
     padding: 15px;
     margin-left: 1em;
     width: 11em;
-    border-radius: 1em;
 }
 
 .cards {
-    grid-area: 2 / 3 / span 2 / span 10;
+    grid-area: 2 / 3 / span 2 / 11;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 1.5em;
-    width: 44em;
+    column-gap: 3.5vw;
 }
 
 .card {
@@ -37,7 +37,7 @@
 }
 
 .card-image {
-    height: 8em;
+    height: 55%;
     overflow: hidden;
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
@@ -54,12 +54,12 @@
 
 .card-des h3 {
     font-family: "Markazi Text";
-    font-size: 1.1em;
+    font-size: 1.8em;
     margin: 0px;
 }
 
 .card-des p {
-    font-size: 0.75em;
+    font-size: 1em;
     font-family: "Karla", sans-serif;
 }
 

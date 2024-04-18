@@ -5,7 +5,7 @@
 .hero.align {
     padding-top: 0.8em;
     padding-bottom: 1.2em;
-    grid-template-rows: 38px 33px 113px;
+    grid-template-rows: 5svh 6svh 15svh;
 }
 
 .hero h1 {
@@ -13,7 +13,7 @@
     color: #F4CE14;
     grid-column: 3 / span 4;
     font-family: "Markazi Text";
-    font-size: 3.2em;
+    font-size: 3.5em;
     font-weight: 500;
     font-style: normal;
 }
@@ -23,7 +23,7 @@
     margin-top: 8px;
     font-weight: 300;
     font-family: "Markazi Text";
-    font-size: 2em;
+    font-size: 2.3em;
     color: white;
     grid-area: 2 / 3 / span 1 / span 3;
 }
@@ -31,7 +31,7 @@
 .hero p {
     font-family: "Karla", sans-serif;
     font-weight: 500;
-    font-size: 0.92em;
+    font-size: 1.2em;
     color: white;
     grid-area: 3 / 3 / span 1 / span 3;
 }
@@ -41,13 +41,13 @@ button {
     border: 0px;
     font-family: "Karla", sans-serif;
     font-weight: 700;
-    font-size: 0.92em;
-    border-radius: 8px;
+    font-size: 1.3em;
+    border-radius: 0.6em;
     padding: 0.5em;
 }
 
 .hero button {
-    grid-area: 4 / 3 / span 1 / 6;
+    grid-area: 4 / 3 / span 1 / span 2;
     margin-right: 2.4em;
     margin-bottom: 1em;
 }
@@ -63,12 +63,13 @@ button:hover {
 
 .hero .crop {
     margin-top: 12px;
-    border-radius: 30px;
-    grid-column-start: 8;
+    border-radius: 3svh;
+    grid-column: 9 / 11;
     grid-row-start: 1;
-    width: 17em;
-    height: 19em;
+    width: 20vw;
+    height: 45svh;
     overflow: hidden;
+    justify-self: end;
 }
 
 .hero .crop:hover {
