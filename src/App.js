@@ -1,7 +1,6 @@
 // Assets
 import './App.css'
 import logo from './logo.svg'
-import burger from './assets/icons/burger.svg'
 import basket from './assets/icons/basket.svg'
 
 // React Components
@@ -18,8 +17,12 @@ import ConfirmeBooking from './components/ComfirmeBooking'
 import Signin from './components/Signin'
 import Signup from './components/Signup'
 
-function App() {
+// Functions
+import { useState, useEffect } from 'react'
 
+
+function App() {
+  var [state, setState] = useState('false')
   const handleClick = () => () => {
     const element = document.getElementById('about');
     if (element) {
@@ -30,12 +33,34 @@ function App() {
     }
   };
 
+  const handleMenu = () =>
+  {
+    if (state === "false") {
+      setState('True')
+    } else if (state === "True") {
+      setState("false")
+    }
+    console.log(state)
+  }
+
+  
+
+  useEffect(() => {
+    
+  }, [])
+
   return (
     <>
       <div className='navback'>
-        <nav className='navbar align'>
-          <img className='menu-icon' id='mobile' src={burger} alt='menu'/>
-          <Link to='/littlelemon' className='logo'><img className='logo' src={logo} alt="logo"/></Link>
+        <Link to='/littlelemon' className='logo'><img className='logo' src={logo} alt="logo"/></Link>
+        
+        <button className='mobile-nav-toggle'
+        aria-controls='primary-nav' aria-expanded="false"
+        onClick={handleMenu}></button>
+
+        <nav id='primary-nav' className='navbar align' 
+          data-visible="false">
+
           <img className='basket-icon' id='mobile' src={basket} alt='shop'/>
           <div className='links'>
             <Link to='/littlelemon' className='link'>Home</Link>

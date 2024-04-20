@@ -5,7 +5,7 @@
 .hero.align {
     padding-top: 0.8em;
     padding-bottom: 1.2em;
-    grid-template-rows: 5svh 6svh 15svh;
+    grid-template-rows: 5svh 6svh 17svh;
 }
 
 .hero h1 {
@@ -13,7 +13,7 @@
     color: #F4CE14;
     grid-column: 3 / span 4;
     font-family: "Markazi Text";
-    font-size: 3.5em;
+    font-size: 3em;
     font-weight: 500;
     font-style: normal;
 }
@@ -23,7 +23,7 @@
     margin-top: 8px;
     font-weight: 300;
     font-family: "Markazi Text";
-    font-size: 2.3em;
+    font-size: 2em;
     color: white;
     grid-area: 2 / 3 / span 1 / span 3;
 }
@@ -31,7 +31,6 @@
 .hero p {
     font-family: "Karla", sans-serif;
     font-weight: 500;
-    font-size: 1.2em;
     color: white;
     grid-area: 3 / 3 / span 1 / span 3;
 }
@@ -41,7 +40,7 @@ button {
     border: 0px;
     font-family: "Karla", sans-serif;
     font-weight: 700;
-    font-size: 1.3em;
+    font-size: 1em;
     border-radius: 0.6em;
     padding: 0.5em;
 }
@@ -80,10 +79,10 @@ button:hover {
 @media (max-width: 600px) {
     .align {
         display: grid;
-        grid-template-columns: repeat(8, 2em);
-        column-gap: 0.5em;
-        margin-left: 0.5em;
-        margin-right: 0.5em;
+        grid-template-columns: repeat(8, 11.25vw);
+        column-gap: 1vw;
+        margin-left: 1.5vw;
+        margin-right: 1.5vw;
     }
     .hero.align {
         padding-top: 0em;
@@ -113,10 +112,10 @@ button:hover {
         font-weight: 400;
         font-size: 1.2em;
         color: white;
-        grid-area: 8 / 1 / span 10 / span 6;
+        grid-area: 8 / 1 / span 10 / span 5;
     }
     .hero button {
-        grid-area: 19 / 1 / span 3 / span 6;
+        grid-area: 19 / 1 / span 3 / span 4;
         height: 2.6em;
         border-radius: 1em;
     }
@@ -136,7 +135,7 @@ button:hover {
         margin-top: 4em;
         margin-left: 1em;
         border-radius: 1em;
-        grid-area: 5 / 7 / span 1 / span 1;
+        grid-area: 5 / 8 / span 1 / span 1;
         width: 9em;
         height: 11em;
         overflow: hidden;

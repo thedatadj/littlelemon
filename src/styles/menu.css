@@ -2,7 +2,7 @@
 {
     row-gap: 1em;
     margin-bottom: 10svh;
-    grid-template-rows: repeat(6, 17svh);
+    grid-template-rows: repeat(6, 20svh);
 }
 .menu-title
 {

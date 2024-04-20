@@ -30,11 +30,11 @@ footer {
 }
 
 #foot2 {
-    grid-area: 1 / 8 / span 1 / span 2;
+    grid-area: 1 / 7 / span 1 / span 2;
 }
 
 #foot3 {
-    grid-area: 1 / 11 / span 1 / span 3;
+    grid-area: 1 / 9 / span 1 / span 3;
 }
 
 @media(max-width: 480px) {
