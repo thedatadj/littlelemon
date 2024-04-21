@@ -3,6 +3,7 @@
     row-gap: 1em;
     margin-bottom: 10svh;
     grid-template-rows: repeat(6, 20svh);
+    font-family: "Markazi Text";
 }
 .menu-title
 {
@@ -22,10 +23,9 @@
 .menu-section h1
 {
     margin: 0;
-}
-.box
-{
-    height: 20svh;
+    font-family: "Markazi Text";
+    font-size: 3rem;
+    color: #495E57;
 }
 #starters
 {
@@ -48,18 +48,37 @@
     display: flex;
     text-align: left;
     border: 1px solid gray;
+    margin-bottom: 1svh;
+}
+.one h3
+{
+    font-size: 2rem;
+    margin: 0;
+}
+.one p
+{
+    font-size: 1.4rem;
 }
 .one:hover
 {
-    background-color: aliceblue;
+    background-color: #F4CE14;
 }
 .two#image
 {
     display: flex;
     align-items: center;
-    width: 10em;
+    width: 17em;
 }
 .two
 {
     margin: 0.5em;
+}
+
+@media (width <= 480px)
+{
+    .menu
+    {
+        display: flex;
+        flex-direction: column;
+    }
 }
