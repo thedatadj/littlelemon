@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/littlelemon/static/css/main.da46f373.css",
-    "main.js": "/littlelemon/static/js/main.8e7ec2d4.js",
-    "static/media/bruchetta.svg": "/littlelemon/static/media/bruchetta.29ea078fea3d3120ed22402e901b5bbc.svg",
+    "main.css": "/littlelemon/static/css/main.ed2e089d.css",
+    "main.js": "/littlelemon/static/js/main.56e2b750.js",
+    "static/media/bruchetta.svg": "/littlelemon/static/media/bruchetta.ec4950d4eabf4293f4120e3b6c48b7cf.svg",
     "static/media/restaurant chef B.jpg": "/littlelemon/static/media/restaurant chef B.4b4c2d26b514db32e8fc.jpg",
     "static/media/greek salad.jpg": "/littlelemon/static/media/greek salad.bed423a1fab5b210e347.jpg",
     "static/media/restauranfood.jpg": "/littlelemon/static/media/restauranfood.e8abf5b772b6817189aa.jpg",
     "static/media/restaurant.jpg": "/littlelemon/static/media/restaurant.324d0f99bdf19400a0f7.jpg",
-    "static/media/UnderConstruction.svg": "/littlelemon/static/media/UnderConstruction.e9884bdbbdf18d952df8e511b3a17c50.svg",
-    "static/media/logo.svg": "/littlelemon/static/media/logo.6cfcefaf9cd049ddf4d30c038e39e743.svg",
+    "static/media/UnderConstruction.svg": "/littlelemon/static/media/UnderConstruction.654339804eccbf47dc120a224d0b4a91.svg",
+    "static/media/grilled-fish.jpg": "/littlelemon/static/media/grilled-fish.d35e615629fdfbf01817.jpg",
+    "static/media/logo.svg": "/littlelemon/static/media/logo.0c2b095d2c6c115ea1e8a92779aaceed.svg",
     "index.html": "/littlelemon/index.html",
-    "static/media/basket.svg": "/littlelemon/static/media/basket.096e0ee1a59ac26349dcd0f4f0c56010.svg",
-    "static/media/burger.svg": "/littlelemon/static/media/burger.0da6f67ced800ab909f63d5144de37ee.svg",
-    "main.da46f373.css.map": "/littlelemon/static/css/main.da46f373.css.map",
-    "main.8e7ec2d4.js.map": "/littlelemon/static/js/main.8e7ec2d4.js.map"
+    "static/media/Multiply.svg": "/littlelemon/static/media/Multiply.eb3cfcb87733c1df88cf34c7de196d5c.svg",
+    "static/media/basket.svg": "/littlelemon/static/media/basket.25519810bf5a6d23c1a4cadc3df118bd.svg",
+    "static/media/burger.svg": "/littlelemon/static/media/burger.2cba90d9a2294d6ec4901bf28d25c693.svg",
+    "main.ed2e089d.css.map": "/littlelemon/static/css/main.ed2e089d.css.map",
+    "main.56e2b750.js.map": "/littlelemon/static/js/main.56e2b750.js.map"
   },
   "entrypoints": [
-    "static/css/main.da46f373.css",
-    "static/js/main.8e7ec2d4.js"
+    "static/css/main.ed2e089d.css",
+    "static/js/main.56e2b750.js"
   ]
 }
