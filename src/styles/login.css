@@ -1,0 +1,94 @@
+.login.align
+{
+    height: 50svh;
+    font-size: 2rem;
+}
+
+.signin.align {
+    display: flex;
+    flex-direction: column;
+    height: 50svh;
+    gap: 5svh;
+}
+
+.signin.align h1 {
+    align-self: center;
+    font-family: "Markazi Text";
+    color:#495E57;
+    font-size: 4rem;
+    margin-bottom: 0.2em;
+    margin: 0;
+}
+
+.signin.align form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: "Karla";
+    font-size: 2rem;
+}
+
+.signin.align button {
+    margin-top: 1em;
+    padding: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-size: 1.5rem;
+}
+
+.signup.align {
+    display: flex;
+    flex-direction: column;
+    gap: 5svh;
+}
+
+.signup.align h1 {
+    align-self: center;
+    font-family: "Markazi Text";
+    color:#495E57;
+    font-size: 4rem;
+    margin: 0;
+}
+
+.signup.align form {
+    margin-bottom: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Karla";
+    gap: 0.5rem;
+    font-size: 2rem;
+}
+
+.signup.align button {
+    margin-top: 1em;
+    padding: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-size: 1.5rem;
+}
+
+.login.align {
+    grid-template-rows: repeat(5, 3em);
+    align-items: center;
+}
+
+#b1 {
+    grid-area: 3 / 5 / span 1 / span 2;
+}
+
+#b2 {
+    grid-area: 3 / 8 / span 1 / span 2;
+}
+
+@media (width <= 480px)
+{
+    .login.align
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 4svh;
+    }
+}

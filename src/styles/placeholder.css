@@ -12,10 +12,9 @@
 #container h1
 {
     margin-left: 0.1em;
-    color: #F9E7C2;
+    color: black;
     font-family:sans-serif;
     font-size: 1.8em;
-    -webkit-text-stroke: 0.04em #6A4733;
 }
 
 #container img {

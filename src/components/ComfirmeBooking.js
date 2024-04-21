@@ -1,3 +1,4 @@
+import '../styles/bookingPage.css'
 const ConfirmeBooking = () => {
     return (
         <div className='confirmed align'>

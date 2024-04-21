@@ -46,34 +46,7 @@ function App() {
       setState("100")
       menuIcon = menuOpen
     }
-  }
-
-  // element styles
-  const navStyle = 
-  {
-    position: "fixed",
-    inset: "0 0 0 16%",
-    margin: 0,
-    display: "flex",
-    flexDirection: "column",
-    zIndex: 1000,
-    transform: `translateX(${state}%)`,
-    transition: "transform 350ms ease-out",
-    backgroundColor: "hsl(0 0% 100% / 0.1)",
-    backdropFilter: "blur(2rem)",
-  }
-  const buttonStyle = 
-  {
-    display: "block",
-    zIndex: 9999,
-    position: "absolute",
-    background: "none",
-    backgroundRepeat: "no-repeat",
-    width:"5svh",
-    aspectRatio: 1,
-    top: "2.5svh",
-    right: "4vw",
-    borderRadius: 0,
+    console.log(state)
   }
 
   return (
@@ -82,23 +55,23 @@ function App() {
         
         <img className='basket-icon' id='mobile' src={basket} alt='shop'/>
 
-        <Link to='/littlelemon' className='logo'><img className='logo' src={logo} alt="logo"/></Link>
+        <Link id='mobile' to='/littlelemon' className='logo'><img className='logo' src={logo} alt="logo"/></Link>
 
         <button 
           className='mobile-nav-toggle'
-          aria-controls='primary-nav' 
-          aria-expanded="false"
+          aria-controls='primary-nav'
           onClick={handleMenu}
-          style={buttonStyle}
         ><img src={menuIcon} alt='menu' width='100%'/></button>
 
         <nav
           id='primary-nav' 
-          className='navbar align' 
-          style={navStyle}
+          className='navbar align'
+          visible={`${state}`}
         >
+          <Link id='desktop' to='/littlelemon' className='logo'><img className='logo' src={logo} alt="logo"/></Link>
+          
           <div className='links'>
-          <Link to='/littlelemon' className='logo'><img className='logo' src={logo} alt="logo"/></Link>
+            <Link id='mobile' to='/littlelemon' className='logo'><img className='logo' src={logo} alt="logo"/></Link>
             <Link to='/littlelemon' className='link'>Home</Link>
             <a href='/littlelemon/#about' className='link' onClick={handleClick}>About</a>
             <Link to='/littlelemon/menu' className='link'>Menu</Link>
