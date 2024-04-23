@@ -1,24 +1,26 @@
 {
   "files": {
-    "main.css": "/littlelemon/static/css/main.ed2e089d.css",
-    "main.js": "/littlelemon/static/js/main.56e2b750.js",
+    "main.css": "/littlelemon/static/css/main.c64abae1.css",
+    "main.js": "/littlelemon/static/js/main.578729fd.js",
     "static/media/bruchetta.svg": "/littlelemon/static/media/bruchetta.ec4950d4eabf4293f4120e3b6c48b7cf.svg",
     "static/media/restaurant chef B.jpg": "/littlelemon/static/media/restaurant chef B.4b4c2d26b514db32e8fc.jpg",
     "static/media/greek salad.jpg": "/littlelemon/static/media/greek salad.bed423a1fab5b210e347.jpg",
     "static/media/restauranfood.jpg": "/littlelemon/static/media/restauranfood.e8abf5b772b6817189aa.jpg",
     "static/media/restaurant.jpg": "/littlelemon/static/media/restaurant.324d0f99bdf19400a0f7.jpg",
     "static/media/UnderConstruction.svg": "/littlelemon/static/media/UnderConstruction.654339804eccbf47dc120a224d0b4a91.svg",
-    "static/media/grilled-fish.jpg": "/littlelemon/static/media/grilled-fish.d35e615629fdfbf01817.jpg",
+    "static/media/grilled-fish.jpg": "/littlelemon/static/media/grilled-fish.72ada21b7563828882fc.jpg",
+    "static/media/redWine.jpg": "/littlelemon/static/media/redWine.8cb4f42f18d8e9097c2c.jpg",
     "static/media/logo.svg": "/littlelemon/static/media/logo.0c2b095d2c6c115ea1e8a92779aaceed.svg",
+    "static/media/lemon dessert.jpg": "/littlelemon/static/media/lemon dessert.49b25f2e0bab90ca2fdf.jpg",
     "index.html": "/littlelemon/index.html",
     "static/media/Multiply.svg": "/littlelemon/static/media/Multiply.eb3cfcb87733c1df88cf34c7de196d5c.svg",
     "static/media/basket.svg": "/littlelemon/static/media/basket.25519810bf5a6d23c1a4cadc3df118bd.svg",
     "static/media/burger.svg": "/littlelemon/static/media/burger.2cba90d9a2294d6ec4901bf28d25c693.svg",
-    "main.ed2e089d.css.map": "/littlelemon/static/css/main.ed2e089d.css.map",
-    "main.56e2b750.js.map": "/littlelemon/static/js/main.56e2b750.js.map"
+    "main.c64abae1.css.map": "/littlelemon/static/css/main.c64abae1.css.map",
+    "main.578729fd.js.map": "/littlelemon/static/js/main.578729fd.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed2e089d.css",
-    "static/js/main.56e2b750.js"
+    "static/css/main.c64abae1.css",
+    "static/js/main.578729fd.js"
   ]
 }
