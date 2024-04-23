@@ -1,21 +1,33 @@
 .menu
 {
-    row-gap: 1em;
+    grid-area: 1 / 3 / span 1 / span 8;
     margin-bottom: 10svh;
-    grid-template-rows: repeat(6, 20svh);
     font-family: "Markazi Text";
+    display: flex;
+    flex-direction: column;
 }
 .menu-title
 {
-    grid-area: 1 / 3 / span 1 / span 9;
     text-align: center;
-    font-size: 3em;
+    font-size: 2em;
 }
 .menu-title h1
 {
     margin: 0;
     padding: 0;
 }
+.floor-1.door-2
+{
+    display: flex;
+    column-gap: 1vw;
+}
+.floor-2
+{
+    display: flex;
+    flex-direction: column;
+    
+}
+
 .menu-section
 {
     text-align: center;
@@ -24,61 +36,103 @@
 {
     margin: 0;
     font-family: "Markazi Text";
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: #495E57;
 }
-#starters
+.box
 {
-    grid-area: 2 / 3 / span 3 / span 4;
-}
-#main
-{
-    grid-area: 2 / 7 / span 3 / span 4;
-}
-#desserts
-{
-    grid-area: 5 / 3 / span 3 / span 4;
-}
-#drinks
-{
-    grid-area: 5 / 7 / span 3 / span 4;
+    border: 1px solid #495E57;
 }
 .one
 {
     display: flex;
     text-align: left;
-    border: 1px solid gray;
-    margin-bottom: 1svh;
+    /* border-bottom: 1px solid #495E57; */
+    height: 17svh;
+    font-family: "Karla";
+    gap: 0em;
+    padding: 0.3em;
+    position: relative;
+}
+.one::after
+{
+    background-color: #dadada; 
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,0);
+    width: 90%;
 }
 .one h3
 {
-    font-size: 2rem;
+    font-size: 1.2em;
     margin: 0;
+}
+.one h4 
+{
+    font-size: 1.1em;
+    margin: 0;
+    color: #495E57;
+    font-weight: lighter;
 }
 .one p
 {
-    font-size: 1.4rem;
+    font-size: 0.9em;
+    margin: 0;
+    color: #495E57;
 }
 .one:hover
 {
     background-color: #F4CE14;
 }
-.two#image
-{
-    display: flex;
-    align-items: center;
-    width: 17em;
-}
 .two
 {
-    margin: 0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.two#text
+{
+    gap: 0.7em;
+}
+.two#image
+{
+    justify-content: center;
+}
+.image-container
+{
+    width: 11vw;
+    height: 15svh;
+    overflow: hidden;
 }
 
 @media (width <= 480px)
 {
+    .align {
+        display: grid;
+        grid-template-columns: repeat(8, 11.25vw);
+        column-gap: 1vw;
+        margin-left: 1.5vw;
+        margin-right: 1.5vw;
+    }
     .menu
+    {
+        grid-area: 1 / 1 / span 1 / span 9;
+    }
+    .floor-1.door-2
     {
         display: flex;
         flex-direction: column;
+    }
+    .one
+    {
+        height: 11svh;
+    }
+    .image-container
+    {
+        width: 34vw;
     }
 }

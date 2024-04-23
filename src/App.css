@@ -16,7 +16,7 @@ body {
     padding:0;
     margin-left: 5vw;
     margin-right: 5vw;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 .navbar.align {
@@ -57,7 +57,7 @@ body {
         height: 10svh;
         display: flex;
         justify-content: center;
-        align-items: flex-end;
+        align-items: center;
     }
     .align {
         display: grid;
@@ -110,7 +110,6 @@ body {
     .logo{
         width: 40vw;
         height: 5svh;
-        padding-bottom: 1svh;
     }
     .basket-icon {
         position: absolute;
@@ -120,7 +119,7 @@ body {
         left: 4vw;
     }
     .links {
-        margin-top: 4svh;
+        margin-top: 3svh;
         padding-right: 3rem;
         display: flex;
         flex-direction: column;
