@@ -1,9 +1,10 @@
 import '../styles/order.css'
-import Placeholder from './Placeholder'
 
 const Order = () => {
     return (
-        <Placeholder />
+        <div className='order-box'>
+            <h1 className='order'>Order</h1>
+        </div>
     )
 }
 export default Order

@@ -1,5 +1,6 @@
-.order div
-{
-    border: 2px solid red;
-    height: 50vh;
+.order {
+    display: flex;
+    justify-content: center;
+    border: solid red 2px;
 }
+

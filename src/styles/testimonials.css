@@ -17,7 +17,7 @@
 
 .testimonials .review {
     background-color: white;
-    height: 6em;
+    height: 7em;
     width: 10em;
     margin-left: 2em;
 }
@@ -33,6 +33,32 @@
 }
 .review.box4 {
     grid-area: 4 / 9 / span 1 / span 2;
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    padding: 0.7rem;
+    font-family: 'Karla';
+}
+
+.review h3 {
+    font-weight:bolder;
+    margin: 0;
+    margin-bottom: 0.3em;
+}
+
+.review div {
+    margin-bottom: 0.7rem;
+}
+
+#photo {
+    display: flex;
+    flex-direction: row;
+}
+
+#photo img {
+    margin-right: 2rem;
 }
 
 @media (max-width: 600px) {
