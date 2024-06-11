@@ -4,6 +4,7 @@ import bruschetta from '../assets/images/bruchetta.svg'
 import fish from '../assets/images/grilled-fish.jpg'
 import pie from '../assets/images/lemon dessert.jpg'
 import wine from '../assets/images/redWine.jpg'
+import Order from './Order'
 
 const items = 
 {
@@ -45,8 +46,12 @@ const items =
 }
 const Card = ({dish}) =>
 {
+    const handleClick = () =>
+        {
+            <Order />
+        }
     return (
-        <div className='one' >
+        <div className='one' onClick={handleClick}>
             <div className='two' id='text' >
                 <h3> {dish.name} </h3>
                 <p> {dish.desc} </p>
