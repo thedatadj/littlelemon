@@ -4,7 +4,7 @@ import bruschetta from '../assets/images/bruchetta.svg'
 import fish from '../assets/images/grilled-fish.jpg'
 import pie from '../assets/images/lemon dessert.jpg'
 import wine from '../assets/images/redWine.jpg'
-import Order from './Order'
+import {useNavigate} from 'react-router-dom'
 
 const items = 
 {
@@ -46,10 +46,10 @@ const items =
 }
 const Card = ({dish}) =>
 {
-    const handleClick = () =>
-        {
-            <Order />
-        }
+    const navigate = useNavigate()
+
+    const handleClick = () => navigate('/littlelemon/order', { state: {dish} })
+    
     return (
         <div className='one' onClick={handleClick}>
             <div className='two' id='text' >

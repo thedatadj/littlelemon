@@ -1,5 +1,5 @@
 .testimonials-area {
-    background-color: #EDEFEE;
+    background-color: #495E57;
 }
 
 .testimonials.align {
@@ -13,6 +13,7 @@
     font-size: 3.2em;
     font-weight: 500;
     font-style: normal;
+    color: #F4CE14;
 }
 
 .testimonials .review {

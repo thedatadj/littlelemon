@@ -1,0 +1,27 @@
+.order {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.order div {
+    border: red 2px solid;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    border-radius: 3em;
+    height: 40svh;
+    overflow: hidden;
+}
+
+.order h1 {
+    font-family: 'Markazi Text';
+    font-size: 4em;
+    padding: 0;
+    margin: 0;
+}
+
+.order img {
+    width: 100%;
+    height: 100%;
+}

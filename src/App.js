@@ -17,6 +17,7 @@ import Menu from './components/Menu'
 import ConfirmeBooking from './components/ComfirmeBooking'
 import Signin from './components/Signin'
 import Signup from './components/Signup'
+import Order from './components/Order'
 
 // Functions
 import { useState } from 'react'
@@ -89,6 +90,7 @@ function App() {
               <Route path='/littlelemon/littlelemon/confirmed' element={<ConfirmeBooking/>} />
               <Route path='/littlelemon/signin' element={<Signin/>} />
               <Route path='/littlelemon/signup' element={<Signup/>} />
+              <Route path='/littlelemon/order' element={<Order />} />
           </Routes>
       </main>
       <Footer/>
