@@ -1,14 +1,13 @@
 {
   "files": {
-    "main.css": "/littlelemon/static/css/main.d878bc1e.css",
-    "main.js": "/littlelemon/static/js/main.5b9ad8cf.js",
+    "main.css": "/littlelemon/static/css/main.2c127765.css",
+    "main.js": "/littlelemon/static/js/main.fc9e3992.js",
     "static/media/bruchetta.svg": "/littlelemon/static/media/bruchetta.29ea078fea3d3120ed22402e901b5bbc.svg",
     "static/media/restaurant chef B.jpg": "/littlelemon/static/media/restaurant chef B.4b4c2d26b514db32e8fc.jpg",
     "static/media/greek salad.jpg": "/littlelemon/static/media/greek salad.bed423a1fab5b210e347.jpg",
     "static/media/restauranfood.jpg": "/littlelemon/static/media/restauranfood.e8abf5b772b6817189aa.jpg",
     "static/media/restaurant.jpg": "/littlelemon/static/media/restaurant.324d0f99bdf19400a0f7.jpg",
     "static/media/Rating.svg": "/littlelemon/static/media/Rating.b314772409052e63773cb2f5a21b86b7.svg",
-    "static/media/UnderConstruction.svg": "/littlelemon/static/media/UnderConstruction.e9884bdbbdf18d952df8e511b3a17c50.svg",
     "static/media/grilled-fish.jpg": "/littlelemon/static/media/grilled-fish.72ada21b7563828882fc.jpg",
     "static/media/redWine.jpg": "/littlelemon/static/media/redWine.8cb4f42f18d8e9097c2c.jpg",
     "static/media/logo.svg": "/littlelemon/static/media/logo.6cfcefaf9cd049ddf4d30c038e39e743.svg",
@@ -17,11 +16,11 @@
     "static/media/Multiply.svg": "/littlelemon/static/media/Multiply.eb3cfcb87733c1df88cf34c7de196d5c.svg",
     "static/media/basket.svg": "/littlelemon/static/media/basket.096e0ee1a59ac26349dcd0f4f0c56010.svg",
     "static/media/burger.svg": "/littlelemon/static/media/burger.0da6f67ced800ab909f63d5144de37ee.svg",
-    "main.d878bc1e.css.map": "/littlelemon/static/css/main.d878bc1e.css.map",
-    "main.5b9ad8cf.js.map": "/littlelemon/static/js/main.5b9ad8cf.js.map"
+    "main.2c127765.css.map": "/littlelemon/static/css/main.2c127765.css.map",
+    "main.fc9e3992.js.map": "/littlelemon/static/js/main.fc9e3992.js.map"
   },
   "entrypoints": [
-    "static/css/main.d878bc1e.css",
-    "static/js/main.5b9ad8cf.js"
+    "static/css/main.2c127765.css",
+    "static/js/main.fc9e3992.js"
   ]
 }
