@@ -53,6 +53,7 @@
     gap: 0em;
     padding: 0.3em;
     position: relative;
+    width: 28vw;
 }
 .one::after
 {
@@ -83,6 +84,11 @@
     font-size: 0.9em;
     margin: 0;
     color: #495E57;
+    height: 5svh;
+    width: 17.6em;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: normal;
 }
 .one:hover
 {

@@ -45,7 +45,7 @@ const Specials = () => {
         <div className='specials align'>
             <h1 id='desktop'>This weeks specials!</h1>
             <h2 id='mobile'>ORDER FOR DELIVERY!</h2>
-            <button><Link to='/menu' className='reserve-button'>Online Menu</Link></button>
+            <button><Link to='/littlelemon/menu' className='reserve-button'>Online Menu</Link></button>
             <div className='cards'>
                 <div className='card salad' onClick={() => handleClick(data.salad.name)}>
                     <div className='card-image'>

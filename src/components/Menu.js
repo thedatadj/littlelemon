@@ -11,7 +11,7 @@ const items =
     salad:
     {
         name: "Greek Salad",
-        desc: "The famous greek salad of crispy lettuce, peppers, ol...",
+        desc: "The famous greek salad  of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons.",
         pric: "$12.99",
         imag: salad
     },

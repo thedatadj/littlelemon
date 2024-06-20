@@ -4,9 +4,33 @@
     align-items: center;
 }
 
-.order div {
-    border: red 2px solid;
-    width: 70%;
+.order h1 {
+    font-family: 'Markazi Text';
+    font-size: 4em;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.crop2
+{
+    width: 60vw;
+    height: 40svh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    border-radius: 2em;
+}
+
+.order img
+{
+    align-content: center;
+    width: 100%;
+}
+
+.image-mask {
+    width: 60vw;
     display: flex;
     justify-content: center;
     border-radius: 3em;
@@ -14,14 +38,85 @@
     overflow: hidden;
 }
 
-.order h1 {
-    font-family: 'Markazi Text';
-    font-size: 4em;
-    padding: 0;
-    margin: 1em;
+.order-details
+{
+    width: 58vw;
+    padding: 1em;
+    display: flex;
+    column-gap: 2vw;
 }
 
-.order img {
+#left
+{
+    width: 29vw;
+    display: grid; 
+    grid-template-areas: 
+        'tl tr'
+        'c c'
+        'bl br';
+}
+
+#left h2
+{
+    font-size: 2em;
+    font-family: 'Markazi Text';
+}
+
+#left > #food-title
+{
+    grid-area: tl;
+    margin: 0;
+}
+#left > #food-price
+{
+    grid-area: tr;
+    margin: 0;
+}
+#left > #food-desc
+{
+    grid-area: c;
+    margin: 0;
+    height: 10svh;
     width: 100%;
-    height: 100%;
+    font-size: 1.2em;
+}
+#left > #delivery
+{
+    grid-area: bl;
+}
+
+#right
+{
+    width: 29vw;
+    display: flex;
+    flex-direction: column;
+    font-family: 'karla';
+}
+
+#right > p
+{
+    margin: 0;
+}
+
+.toggle
+{
+    margin-top: 1svh;
+}
+
+.toggle > span
+{
+    font-size: 3em;
+}
+
+.toggle > button 
+{
+    font-size: 2em;
+}
+
+.order-button
+{
+    font-size: 2em;
+    font-family: 'karla';
+    width: 33%;
+    margin: 5vh;
 }
